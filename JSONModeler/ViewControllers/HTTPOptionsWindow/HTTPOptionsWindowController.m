@@ -82,12 +82,6 @@ NSString * const headerValue = @"headerValue";
     [[_headerTableValueColumn headerCell] setStringValue:NSLocalizedString(@"Value", @"Title for the column of HTTP header values")];
     [self.urlTextFieldCell setPlaceholderString:NSLocalizedString(@"http://www.domain.com/", @"Prompt user gets to enter a URL")];    
     [self.generateDataButton setTitle:NSLocalizedString(@"Get Data", @"In the main screen, this is the button that fetches data from a URL")];
-
-#ifdef DEBUG
-    [self.urlTextFieldCell setStringValue:@"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/top_rentals.json?apikey=fm34txf3v6vu9jph5fdqt529"];
-#endif
-
-    
     
     /* Set up http parameters */
     self.httpMethod = self.document.httpMethod;
