@@ -2,6 +2,10 @@
 
 JSON Accelerator helps developers from all programming language persuasions get data, verify it, and write model objects - Objective C, Java, or Python. It’s complexity, simplified.
 
+## New features
+
+添加生成 Swfit 模型功能
+
 ## What does it do?
 
 ### Writes model objects, fast
