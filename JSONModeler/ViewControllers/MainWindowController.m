@@ -617,6 +617,15 @@
     }
 }
 
+- (NSUInteger)getLineNumberFromError:(NSString *)description {
+    NSArray *arr1 = [description componentsSeparatedByString:@"line "];
+    if (arr1.count < 2) { return 0; }
+    NSString *str1 = arr1[1];
+    NSArray *arr2 = [str1 componentsSeparatedByString:@", "];
+    if (arr2.count < 2) { return 0; }
+    return [arr2.firstObject integerValue] - 1;
+}
+
 - (NSUInteger)findLineForCharacter:(NSUInteger)characterNumber;
 {
     NSString *string = [self.JSONTextView string];
