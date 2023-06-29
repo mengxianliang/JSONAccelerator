@@ -20,6 +20,7 @@
 #import "MAAttachedWindow.h"
 
 #import "OutputLanguageWriterObjectiveC.h"
+#import "OutputLanguageWriterSwift.h"
 #import "OutputLanguageWriterJava.h"
 #import "OutputLanguageWriterCoreData.h"
 #import "OutputLanguageWriterDjango.h"
@@ -99,7 +100,8 @@
     
     NSFont *fixedFont = [NSFont userFixedPitchFontOfSize:[NSFont smallSystemFontSize]];
     [self.JSONTextView setFont:fixedFont];
-
+    // 禁用文本智能替换
+    [self.JSONTextView setEnabledTextCheckingTypes:0];
     [self.JSONTextView setNeedsDisplay:YES];
     
     _lineNumberView = [[MarkerLineNumberView alloc] initWithScrollView:self.scrollView];
@@ -379,6 +381,8 @@
     
     self.languageChooserViewController = [[SavePanelLanguageChooserViewController alloc] initWithNibName:@"SavePanelLanguageChooserViewController" bundle:nil];
     [self.panel setAccessoryView:self.languageChooserViewController.view];
+    // 自动显示导出选项
+    [self.panel setAccessoryViewDisclosed:YES];
     
     [self.panel beginSheetModalForWindow:self.mainWindow completionHandler:^(NSInteger result) {        
         if (result == NSOKButton)
@@ -412,8 +416,24 @@
                         optionsDict = @{kObjectiveCWritingOptionUseARC: @(self.languageChooserViewController.buildForARC),
                                         kObjectiveCWritingOptionClassPrefix: classPrefix};
                     }
-                }
-                else if (language == OutputLanguageJava) {
+                } else if (language == OutputLanguageSwift) {
+                    NSString *classPrefix = (self.languageChooserViewController).classPrefix;
+                    
+                    if (!classPrefix) {
+                        classPrefix = @"";
+                    }
+                        
+                    writer = [[OutputLanguageWriterSwift alloc] init];
+                    
+                    if (baseClassName != nil) {
+                        optionsDict = @{kObjectiveCWritingOptionBaseClassName: baseClassName,
+                                        kObjectiveCWritingOptionUseARC: @(self.languageChooserViewController.buildForARC),
+                                        kObjectiveCWritingOptionClassPrefix: classPrefix};
+                    } else {
+                        optionsDict = @{kObjectiveCWritingOptionUseARC: @(self.languageChooserViewController.buildForARC),
+                                        kObjectiveCWritingOptionClassPrefix: classPrefix};
+                    }
+                } else if (language == OutputLanguageJava) {
                     writer = [[OutputLanguageWriterJava alloc] init];
                     optionsDict = @{kJavaWritingOptionBaseClassName: baseClassName, kJavaWritingOptionPackageName: self.languageChooserViewController.packageName};
                 }
@@ -495,19 +515,12 @@
     BOOL willOverwriteFiles = NO;
     NSArray *outputObjects = [[self.modeler parsedDictionary] allValues];
     if (language == OutputLanguageObjectiveC) {
-        for (ClassBaseObject *outputObject in outputObjects) {
-            if ( [fileManager fileExistsAtPath:[[filePath stringByAppendingPathComponent:outputObject.className] stringByAppendingPathExtension:@"m"]]
-                || [fileManager fileExistsAtPath:[[filePath stringByAppendingPathComponent:outputObject.className] stringByAppendingPathExtension:@"h"]] ) {
-                willOverwriteFiles = YES;
-            }
-        }
-    }
-    else if (language == OutputLanguageJava) {
-        for (ClassBaseObject *outputObject in outputObjects) {
-            if ( [fileManager fileExistsAtPath:[[filePath stringByAppendingPathComponent:outputObject.className] stringByAppendingPathExtension:@"java"]] ) {
-                willOverwriteFiles = YES;
-            }
-        }
+        willOverwriteFiles = [self doesDuplicateExist:outputObjects atPath:filePath withExtension:@"m"] || [self doesDuplicateExist:outputObjects atPath:filePath withExtension:@"h"];
+        
+    } else if (language == OutputLanguageSwift) {
+        willOverwriteFiles = [self doesDuplicateExist:outputObjects atPath:filePath withExtension:@"swift"];
+    } else if (language == OutputLanguageJava) {
+        willOverwriteFiles = [self doesDuplicateExist:outputObjects atPath:filePath withExtension:@"java"];
     }
     
     if (willOverwriteFiles) {
@@ -522,6 +535,17 @@
     }
     
     return YES;
+}
+
+- (BOOL)doesDuplicateExist:(NSArray *)outputObjects atPath:(NSString *)filePath withExtension:(NSString *)extension {
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    for (ClassBaseObject *outputObject in outputObjects) {
+        NSString *fullPath = [[filePath stringByAppendingPathComponent:outputObject.className] stringByAppendingPathExtension:extension];
+        if ([fileManager fileExistsAtPath:fullPath]) {
+            return YES;
+        }
+    }
+    return NO;
 }
 
 #pragma mark - Custom Delegate method

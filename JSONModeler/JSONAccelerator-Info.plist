@@ -71,7 +71,7 @@
 		<dict/>
 	</dict>
 	<key>NSContactsUsageDescription</key>
-	<string>This application fetches your vCard and puts your name and company in the header comment block in Objective-C.</string>
+	<string>This application fetches your vCard and puts your name and company in the header comment block in Objective-C/Swift.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2013 The Nerdery. All rights reserved.</string>
 	<key>NSMainNibFile</key>

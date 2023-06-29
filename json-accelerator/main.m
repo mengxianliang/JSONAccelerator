@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "JSONModeler.h"
 #import "OutputLanguageWriterObjectiveC.h"
+#import "OutputLanguageWriterSwift.h"
 #import "OutputLanguageWriterJava.h"
 
 
@@ -36,8 +37,8 @@ int main(int argc, const char * argv[])
             return 0;
         }
         
-        if ( !([arguments[1] isEqualToString:@"objc"] || [arguments[1] isEqualToString:@"java"])) {
-            NSLog(@"Invalid type: output type must by objc or java");
+        if ( !([arguments[1] isEqualToString:@"objc"] || [arguments[1] isEqualToString:@"swift"] || [arguments[1] isEqualToString:@"java"])) {
+            NSLog(@"Invalid type: output type must by objc or swift or java");
             return 0;
         }
         
@@ -56,6 +57,10 @@ int main(int argc, const char * argv[])
         [helper verifyJSON:jsonData];
         
         OutputLanguage language = OutputLanguageObjectiveC;
+        
+        if ([arguments[1] isEqualToString:@"swift"]) {
+            language = OutputLanguageSwift;
+        }
         
         if ([arguments[1] isEqualToString:@"java"]) {
             language = OutputLanguageJava;
@@ -111,8 +116,10 @@ int main(int argc, const char * argv[])
         if (language == OutputLanguageObjectiveC) {
             writer = [[OutputLanguageWriterObjectiveC alloc] init];
             optionsDict = @{kObjectiveCWritingOptionUseARC: @(YES)};
-        }
-        else if (language == OutputLanguageJava) {
+        } else if (language == OutputLanguageSwift) {
+            writer = [[OutputLanguageWriterSwift alloc] init];
+            optionsDict = @{kObjectiveCWritingOptionUseARC: @(YES)};
+        } else if (language == OutputLanguageJava) {
             writer = [[OutputLanguageWriterJava alloc] init];
             optionsDict = @{kJavaWritingOptionBaseClassName: @"BaseClass", kJavaWritingOptionPackageName: @"com.companyname"};
         } else {

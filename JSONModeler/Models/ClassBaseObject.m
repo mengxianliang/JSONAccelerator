@@ -10,6 +10,7 @@
 #import "ClassPropertiesObject.h"
 #import "NSString+Nerdery.h"
 #import "OutputLanguageWriterObjectiveC.h"
+#import "OutputLanguageWriterSwift.h"
 #import "OutputLanguageWriterJava.h"
 
 @interface ClassBaseObject ()
@@ -38,6 +39,8 @@
     
     if(type == OutputLanguageObjectiveC) {
         writer = [OutputLanguageWriterObjectiveC new];
+    } else if (type == OutputLanguageSwift) {
+        writer = [OutputLanguageWriterSwift new];
     } else if (type == OutputLanguageJava) {
         writer = [OutputLanguageWriterJava new];
     }

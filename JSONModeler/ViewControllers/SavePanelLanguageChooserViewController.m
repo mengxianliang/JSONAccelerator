@@ -60,6 +60,12 @@
         self.buildForArcButton.hidden = NO;
         
         self.baseClassField.nextKeyView = self.classPrefixField;
+    } else if (_languageDropDownIndex == OutputLanguageSwift) {
+        self.javaPanel.hidden = YES;
+        self.objectiveCPanel.hidden = NO;
+        self.buildForArcButton.hidden = YES;
+        
+        self.baseClassField.nextKeyView = self.classPrefixField;
     } else {
         self.javaPanel.hidden = YES;
         self.objectiveCPanel.hidden = YES;
@@ -70,16 +76,19 @@
     if (_languageDropDownIndex == OutputLanguageObjectiveC) {
         return OutputLanguageObjectiveC;
     }
-    else if (_languageDropDownIndex == 1) {
+    else if (_languageDropDownIndex == OutputLanguageSwift) {
+        return OutputLanguageSwift;
+    }
+    else if (_languageDropDownIndex == OutputLanguageJava) {
         return OutputLanguageJava;
     }
-    else if (_languageDropDownIndex == 2) {
+    else if (_languageDropDownIndex == OutputLanguageCoreDataObjectiveC) {
         return OutputLanguageCoreDataObjectiveC;
     }
-    else if (_languageDropDownIndex == 3) {
+    else if (_languageDropDownIndex == OutputLanguageDjangoPython) {
         return OutputLanguageDjangoPython;
     }
-    else if (_languageDropDownIndex == 4) {
+    else if (_languageDropDownIndex == OutputLanguagePython) {
         return OutputLanguagePython;
     }
     else {

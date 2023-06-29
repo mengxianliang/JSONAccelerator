@@ -228,7 +228,7 @@
                     NSNumber *tempIntNumber = @([number integerValue]);
                     NSNumber *tempDoubleNumber = @([number doubleValue]);
                     
-                    isDouble = [[number stringValue] isEqualToString:[tempDoubleNumber stringValue]];
+                    isDouble = [[number stringValue] isEqualToString:[tempDoubleNumber stringValue]] && [number.stringValue containsString:@"."];;
                     isInteger = [[number stringValue] isEqualToString:[tempIntNumber stringValue]];
                 }
                 
