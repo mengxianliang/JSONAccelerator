@@ -1,0 +1,12 @@
+/*-------------------------------------------------------------------------------------------------*/
+/* Copyright (c) 2008 DaisyDisk Team: <https://daisydiskapp.com> */
+/* Some rights reserved: <https://opensource.org/licenses/mit-license.php> */
+/*-------------------------------------------------------------------------------------------------*/
+
+"DFeedback_Alert_SendFailed_Title" = "發送回饋失敗";
+"DFeedback_Alert_SendFailed_Message" = "發生錯誤：%@";
+"DFeedback_Alert_SendFailed_Button_Dismiss" = "離開";
+
+"DFeedback_PlaceholderText" = "請以英文撰寫和提交回饋，我們看不懂中文，請見諒。";
+
+

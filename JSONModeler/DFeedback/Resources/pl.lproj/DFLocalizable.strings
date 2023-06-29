@@ -1,0 +1,11 @@
+/*-------------------------------------------------------------------------------------------------*/
+/* Copyright (c) 2008 DaisyDisk Team: <https://daisydiskapp.com> */
+/* Some rights reserved: <https://opensource.org/licenses/mit-license.php> */
+/*-------------------------------------------------------------------------------------------------*/
+
+"DFeedback_Alert_SendFailed_Title" = "Nie udało się wysłać opinii";
+"DFeedback_Alert_SendFailed_Message" = "Wystąpił następujący błąd: %@";
+"DFeedback_Alert_SendFailed_Button_Dismiss" = "Zamknij";
+
+"DFeedback_PlaceholderText" = "Proszę napisz swojej zgłoszenie po angielsku, gdyż nie rozumiemy polskiego.";
+
