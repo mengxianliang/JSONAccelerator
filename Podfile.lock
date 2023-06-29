@@ -17,20 +17,25 @@ PODS:
   - AFNetworking/Reachability (2.5.4)
   - AFNetworking/Security (2.5.4)
   - AFNetworking/Serialization (2.5.4)
-  - iRate (1.11.4)
   - MASPreferences (1.0)
-  - OpenSSL (1.0.207)
+  - Sparkle (1.27.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - iRate
-  - MASPreferences (= 1.0)
-  - OpenSSL
+  - MASPreferences
+  - Sparkle
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - MASPreferences
+    - Sparkle
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
   MASPreferences: 4aeff0267c6ebd3663c65dfc94094156201240f8
-  OpenSSL: 26eb46b2836c0dade24fa53276b552f14c6eece1
+  Sparkle: 23f98b268284c8c03e6228230fc8f1807ef041d5
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 7317a9b45de13b344b8e95cd80484ad8694bc69b
+
+COCOAPODS: 1.11.3

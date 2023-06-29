@@ -15,7 +15,6 @@
 #import "DFFeedbackWindowController.h"
 #import "DFCrashReportWindowController.h"
 #import "ModelerDocument.h"
-#import "iRate.h"
 
 @interface AppDelegate () {
     
@@ -27,15 +26,6 @@
 
 
 @implementation AppDelegate
-
-+ (void)initialize
-{
-    //configure iRate
-#ifndef NORATE
-    [iRate sharedInstance].appStoreID = 511324989;
-    [iRate sharedInstance].usesUntilPrompt = 4;
-#endif
-}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

@@ -1,8 +1,10 @@
-platform :osx, '10.8'
+platform :osx, '10.10'
 
-xcodeproj 'JSONAccelerator.xcodeproj'
+target 'JSON Accelerator' do
+    use_frameworks!
+  
+    pod 'AFNetworking'
+    pod 'MASPreferences'
+    pod 'Sparkle'
 
-pod 'AFNetworking'
-pod 'iRate'
-pod 'MASPreferences', '1.0'
-pod 'OpenSSL'
+end

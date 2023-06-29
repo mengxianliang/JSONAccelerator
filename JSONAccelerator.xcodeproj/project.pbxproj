@@ -40,109 +40,49 @@
 		441FC4E71462D8E1007BF9DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441FC4E61462D8E1007BF9DC /* Cocoa.framework */; };
 		441FC4FA1462D8E1007BF9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC4F91462D8E1007BF9DC /* AppDelegate.m */; };
 		441FC5261462DBF6007BF9DC /* JSONFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC5251462DBF6007BF9DC /* JSONFetcher.m */; };
-		4423310C149B9E290071978D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC4F21462D8E1007BF9DC /* main.m */; };
-		4423310D149B9E290071978D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC4F91462D8E1007BF9DC /* AppDelegate.m */; };
-		4423310E149B9E290071978D /* JSONFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC5251462DBF6007BF9DC /* JSONFetcher.m */; };
-		44233116149B9E290071978D /* JSONModeler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415E4501462F39900953014 /* JSONModeler.m */; };
-		44233117149B9E290071978D /* ClassBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4414992414642ABC002B6969 /* ClassBaseObject.m */; };
-		44233118149B9E290071978D /* ClassPropertiesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4414992814642AF4002B6969 /* ClassPropertiesObject.m */; };
-		44233119149B9E290071978D /* NSString+Nerdery.m in Sources */ = {isa = PBXBuildFile; fileRef = 441499341464619A002B6969 /* NSString+Nerdery.m */; };
-		4423311F149B9E290071978D /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4419EB04146D7A73002605A0 /* BaseView.m */; };
-		44233128149B9E290071978D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441FC4E61462D8E1007BF9DC /* Cocoa.framework */; };
-		4423312D149B9E290071978D /* InterfaceTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C546E7146C18D700D3860A /* InterfaceTemplate.txt */; };
-		4423312E149B9E290071978D /* ImplementationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C546EA146C191F00D3860A /* ImplementationTemplate.txt */; };
-		44233134149B9E290071978D /* JavaTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44FE6F76146C8D5600FA13F9 /* JavaTemplate.txt */; };
-		44233135149B9E290071978D /* ArraySetterTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 448B108F1487EAF800BEE605 /* ArraySetterTemplate.txt */; };
-		44233138149B9E290071978D /* appIcons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 44670A7F1489987E0042A444 /* appIcons.icns */; };
-		44233141149B9F380071978D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44233140149B9F380071978D /* Sparkle.framework */; };
-		44233144149BA0760071978D /* MainMenu-Internal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44233142149BA0760071978D /* MainMenu-Internal.xib */; };
-		4423314A149BA95B0071978D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44233140149B9F380071978D /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		44233150149BD4C40071978D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441FC4FB1462D8E1007BF9DC /* MainMenu.xib */; };
-		4426908C14DA050900C16CBD /* NPReceiptVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4426908B14DA050900C16CBD /* NPReceiptVerification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4426908E14DA052900C16CBD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426908D14DA052900C16CBD /* IOKit.framework */; };
 		4426909014DA053C00C16CBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426908F14DA053C00C16CBD /* Security.framework */; };
-		4426909214DA056100C16CBD /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426909114DA056100C16CBD /* libcrypto.dylib */; };
 		442E38EF15895900003CE8F6 /* OutputLanguageWriterPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E38EE15895900003CE8F6 /* OutputLanguageWriterPython.m */; };
-		442E38F015895900003CE8F6 /* OutputLanguageWriterPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E38EE15895900003CE8F6 /* OutputLanguageWriterPython.m */; };
 		4430047614AB6F4500F7C8DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4430047414AB6F4500F7C8DE /* InfoPlist.strings */; };
-		4430047714AB6F4A00F7C8DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4430047414AB6F4500F7C8DE /* InfoPlist.strings */; };
 		4430204B15214CE60008D9A7 /* dataButtonUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4430204A15214CE60008D9A7 /* dataButtonUp@2x.png */; };
-		4430204C15214CE60008D9A7 /* dataButtonUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4430204A15214CE60008D9A7 /* dataButtonUp@2x.png */; };
 		4439F07B14AABA9C005AA280 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F07A14AABA9C005AA280 /* MainWindowController.m */; };
-		4439F07C14AABA9C005AA280 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439F07A14AABA9C005AA280 /* MainWindowController.m */; };
-		443EF41314ABCD21006216BE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 446B282414ABCC0600FBE699 /* Credits.rtf */; };
 		444AAC1C14CA260E008FBD6F /* JRFeedbackProviderRevised.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444AAC1B14CA260E008FBD6F /* JRFeedbackProviderRevised.xib */; };
-		444AAC1D14CA260E008FBD6F /* JRFeedbackProviderRevised.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444AAC1B14CA260E008FBD6F /* JRFeedbackProviderRevised.xib */; };
 		44519A2A150E67A1003A5CE0 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44519A29150E67A1003A5CE0 /* GradientView.m */; };
-		44519A2B150E67A1003A5CE0 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44519A29150E67A1003A5CE0 /* GradientView.m */; };
 		445F441F15328B7C00E501F6 /* DictionaryRepresentationArrayTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 445F441E15328B7C00E501F6 /* DictionaryRepresentationArrayTemplate.txt */; };
-		445F442015328B7C00E501F6 /* DictionaryRepresentationArrayTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 445F441E15328B7C00E501F6 /* DictionaryRepresentationArrayTemplate.txt */; };
 		44670A801489987E0042A444 /* appIcons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 44670A7F1489987E0042A444 /* appIcons.icns */; };
 		446B282614ABCC0600FBE699 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 446B282414ABCC0600FBE699 /* Credits.rtf */; };
-		446C77C314AAAD8F00FD9A5F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 447E8A7314AAA93E00A3345A /* Localizable.strings */; };
 		446E0768150EA6290071DB0B /* InvalidDataButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 446E0767150EA6290071DB0B /* InvalidDataButton.m */; };
-		446E0769150EA6290071DB0B /* InvalidDataButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 446E0767150EA6290071DB0B /* InvalidDataButton.m */; };
 		446E0783150F980A0071DB0B /* ClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446E0782150F980A0071DB0B /* ClickView.m */; };
-		446E0784150F980A0071DB0B /* ClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446E0782150F980A0071DB0B /* ClickView.m */; };
 		446E0786150F9EF90071DB0B /* generateDataBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 446E0785150F9EF90071DB0B /* generateDataBackground.png */; };
-		446E0787150F9EF90071DB0B /* generateDataBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 446E0785150F9EF90071DB0B /* generateDataBackground.png */; };
 		446F098614AABE7100E37C0C /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446F098514AABE7100E37C0C /* MainWindowController.xib */; };
-		446F098D14AABF0400E37C0C /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446F098514AABE7100E37C0C /* MainWindowController.xib */; };
 		44703BE514D05DA300994234 /* SavePanelLanguageChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44703BE814D05DA300994234 /* SavePanelLanguageChooserViewController.xib */; };
-		44703BE614D05DA300994234 /* SavePanelLanguageChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44703BE814D05DA300994234 /* SavePanelLanguageChooserViewController.xib */; };
 		44731FB414B78BDC009FC27D /* 57-download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44731FB314B78BDC009FC27D /* 57-download@2x.png */; };
-		44731FB614B78C1B009FC27D /* 57-download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44731FB314B78BDC009FC27D /* 57-download@2x.png */; };
 		44731FB814B78CA8009FC27D /* 19-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44731FB714B78CA8009FC27D /* 19-gear@2x.png */; };
-		44731FB914B78D41009FC27D /* 19-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44731FB714B78CA8009FC27D /* 19-gear@2x.png */; };
 		44731FBB14B78E91009FC27D /* 117-todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44731FBA14B78E91009FC27D /* 117-todo@2x.png */; };
-		44731FBC14B78E91009FC27D /* 117-todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44731FBA14B78E91009FC27D /* 117-todo@2x.png */; };
 		4473B3F9150FC8F2008401B5 /* generateDataBackgroundDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F4150FC8F1008401B5 /* generateDataBackgroundDisabled.png */; };
-		4473B3FA150FC8F2008401B5 /* generateDataBackgroundDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F4150FC8F1008401B5 /* generateDataBackgroundDisabled.png */; };
 		4473B3FB150FC8F2008401B5 /* generateDataLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F5150FC8F1008401B5 /* generateDataLeftCap.png */; };
-		4473B3FC150FC8F2008401B5 /* generateDataLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F5150FC8F1008401B5 /* generateDataLeftCap.png */; };
 		4473B3FD150FC8F2008401B5 /* generateDataLeftCapDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F6150FC8F1008401B5 /* generateDataLeftCapDisabled.png */; };
-		4473B3FE150FC8F2008401B5 /* generateDataLeftCapDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F6150FC8F1008401B5 /* generateDataLeftCapDisabled.png */; };
 		4473B3FF150FC8F2008401B5 /* generateDataRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F7150FC8F2008401B5 /* generateDataRightCap.png */; };
-		4473B400150FC8F2008401B5 /* generateDataRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F7150FC8F2008401B5 /* generateDataRightCap.png */; };
 		4473B401150FC8F2008401B5 /* generateDataRightCapDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F8150FC8F2008401B5 /* generateDataRightCapDisabled.png */; };
-		4473B402150FC8F2008401B5 /* generateDataRightCapDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4473B3F8150FC8F2008401B5 /* generateDataRightCapDisabled.png */; };
 		4473B405150FCE1C008401B5 /* GenerateFilesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4473B404150FCE1C008401B5 /* GenerateFilesButton.m */; };
-		4473B406150FCE1C008401B5 /* GenerateFilesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4473B404150FCE1C008401B5 /* GenerateFilesButton.m */; };
-		4473B40D150FEBFA008401B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4473B40C150FEBFA008401B5 /* QuartzCore.framework */; };
 		4473B40E150FEBFF008401B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4473B40C150FEBFA008401B5 /* QuartzCore.framework */; };
 		447E8A7514AAA93E00A3345A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 447E8A7314AAA93E00A3345A /* Localizable.strings */; };
 		448366B3150BEF8900D2F6BF /* validCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B1150BEF8900D2F6BF /* validCheck.png */; };
-		448366B4150BEF8900D2F6BF /* validCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B1150BEF8900D2F6BF /* validCheck.png */; };
 		448366B5150BEF8900D2F6BF /* validCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B2150BEF8900D2F6BF /* validCheck@2x.png */; };
-		448366B6150BEF8900D2F6BF /* validCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B2150BEF8900D2F6BF /* validCheck@2x.png */; };
 		448366BA150BF07500D2F6BF /* dataButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B8150BF07500D2F6BF /* dataButtonDisabled.png */; };
-		448366BB150BF07500D2F6BF /* dataButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B8150BF07500D2F6BF /* dataButtonDisabled.png */; };
 		448366BC150BF07500D2F6BF /* dataButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B9150BF07500D2F6BF /* dataButtonUp.png */; };
-		448366BD150BF07500D2F6BF /* dataButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366B9150BF07500D2F6BF /* dataButtonUp.png */; };
 		448366C0150C411C00D2F6BF /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366BE150C411C00D2F6BF /* alert.png */; };
-		448366C1150C411C00D2F6BF /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366BE150C411C00D2F6BF /* alert.png */; };
 		448366C2150C411C00D2F6BF /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366BF150C411C00D2F6BF /* alert@2x.png */; };
-		448366C3150C411C00D2F6BF /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448366BF150C411C00D2F6BF /* alert@2x.png */; };
 		448B10901487EAF800BEE605 /* ArraySetterTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 448B108F1487EAF800BEE605 /* ArraySetterTemplate.txt */; };
 		4490E89F169241D9007B4FBC /* DataModelsTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4490E89E169241D9007B4FBC /* DataModelsTemplate.txt */; };
-		4490E8A0169241D9007B4FBC /* DataModelsTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4490E89E169241D9007B4FBC /* DataModelsTemplate.txt */; };
 		4490E8A416924DF9007B4FBC /* PanelCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4490E8A316924DF9007B4FBC /* PanelCustomView.m */; };
-		4490E8A516924DF9007B4FBC /* PanelCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4490E8A316924DF9007B4FBC /* PanelCustomView.m */; };
-		4490E8A616924FDB007B4FBC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6FAA4DD08944659C3B3970 /* libPods.a */; };
-		4490E8A816925077007B4FBC /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426909114DA056100C16CBD /* libcrypto.dylib */; };
-		4490E8A91692507E007B4FBC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426908F14DA053C00C16CBD /* Security.framework */; };
 		44AC168015102EB700794AB7 /* alertBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC167D15102EB700794AB7 /* alertBackground.png */; };
 		44AC168115102EB700794AB7 /* alertLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC167E15102EB700794AB7 /* alertLeftCap.png */; };
 		44AC168215102EB700794AB7 /* alertRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC167F15102EB700794AB7 /* alertRightCap.png */; };
-		44AC168415102FCC00794AB7 /* alertBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC167D15102EB700794AB7 /* alertBackground.png */; };
-		44AC168515102FCC00794AB7 /* alertLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC167E15102EB700794AB7 /* alertLeftCap.png */; };
-		44AC168615102FCC00794AB7 /* alertRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC167F15102EB700794AB7 /* alertRightCap.png */; };
 		44AC168A151033E200794AB7 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC1689151033E200794AB7 /* MAAttachedWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44AC168B151033E200794AB7 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC1689151033E200794AB7 /* MAAttachedWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44AC16A8151043D700794AB7 /* alertCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC16A6151043D600794AB7 /* alertCloseButton.png */; };
-		44AC16A9151043D700794AB7 /* alertCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC16A6151043D600794AB7 /* alertCloseButton.png */; };
 		44AC16AA151043D700794AB7 /* alertCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC16A7151043D700794AB7 /* alertCloseButton@2x.png */; };
-		44AC16AB151043D700794AB7 /* alertCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC16A7151043D700794AB7 /* alertCloseButton@2x.png */; };
 		44B6BD9C14B62073000AEC28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC4F21462D8E1007BF9DC /* main.m */; };
 		44C0FF69150AA0DF0039A847 /* dragIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C0FF65150AA0DF0039A847 /* dragIcon.png */; };
 		44C0FF6A150AA0DF0039A847 /* dragIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C0FF66150AA0DF0039A847 /* dragIcon@2x.png */; };
@@ -151,13 +91,9 @@
 		44C0FF7E150AA33A0039A847 /* MarkerLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0FF79150AA33A0039A847 /* MarkerLineNumberView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44C0FF7F150AA33A0039A847 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0FF7B150AA33A0039A847 /* NoodleLineNumberMarker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44C0FF80150AA33A0039A847 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0FF7D150AA33A0039A847 /* NoodleLineNumberView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44C0FF86150AA3B30039A847 /* MarkerLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0FF79150AA33A0039A847 /* MarkerLineNumberView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44C0FF88150AA3BA0039A847 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0FF7B150AA33A0039A847 /* NoodleLineNumberMarker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44C0FF89150AA3C00039A847 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0FF7D150AA33A0039A847 /* NoodleLineNumberView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44C509E117B1E30500DC0483 /* JSONModeler.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 44C509E017B1E30500DC0483 /* JSONModeler.entitlements */; };
 		44C546E8146C18D700D3860A /* InterfaceTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C546E7146C18D700D3860A /* InterfaceTemplate.txt */; };
 		44DF663D158A3FDF00B8E4E6 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DF663C158A3FDF00B8E4E6 /* ArrowView.m */; };
-		44DF663E158A3FDF00B8E4E6 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DF663C158A3FDF00B8E4E6 /* ArrowView.m */; };
 		44E17C7116719F1200945E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E17C7016719F1200945E6D /* Foundation.framework */; };
 		44E17C7416719F1200945E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E17C7316719F1200945E6D /* main.m */; };
 		44E17C7816719F1200945E6D /* json_accelerator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44E17C7716719F1200945E6D /* json_accelerator.1 */; };
@@ -168,48 +104,28 @@
 		44E17C821671A96200945E6D /* OutputLanguageWriterObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037CD14C8B56800FECF86 /* OutputLanguageWriterObjectiveC.m */; };
 		44E17C831671B38800945E6D /* NSString+Nerdery.m in Sources */ = {isa = PBXBuildFile; fileRef = 441499341464619A002B6969 /* NSString+Nerdery.m */; };
 		44F037CE14C8B56800FECF86 /* OutputLanguageWriterObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037CD14C8B56800FECF86 /* OutputLanguageWriterObjectiveC.m */; };
-		44F037CF14C8B57700FECF86 /* OutputLanguageWriterObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037CD14C8B56800FECF86 /* OutputLanguageWriterObjectiveC.m */; };
 		44F037D314C8C43A00FECF86 /* OutputLanguageWriterJava.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037D214C8C43A00FECF86 /* OutputLanguageWriterJava.m */; };
-		44F037D414C8C43A00FECF86 /* OutputLanguageWriterJava.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037D214C8C43A00FECF86 /* OutputLanguageWriterJava.m */; };
 		44F037E714CA18AE00FECF86 /* JRFeedbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037E414CA18AE00FECF86 /* JRFeedbackController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44F037E814CA18AE00FECF86 /* JRFeedbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037E414CA18AE00FECF86 /* JRFeedbackController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44F037E914CA18AE00FECF86 /* NSURLRequest+postForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037E614CA18AE00FECF86 /* NSURLRequest+postForm.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44F037EA14CA18AE00FECF86 /* NSURLRequest+postForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F037E614CA18AE00FECF86 /* NSURLRequest+postForm.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44F037EF14CA18B800FECF86 /* JRFeedbackProvider.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F037EB14CA18B800FECF86 /* JRFeedbackProvider.strings */; };
-		44F037F014CA18B800FECF86 /* JRFeedbackProvider.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F037EB14CA18B800FECF86 /* JRFeedbackProvider.strings */; };
-		44F7B43414CA1AF5004CEA55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F7B43314CA1AF5004CEA55 /* SystemConfiguration.framework */; };
 		44F7B43614CA1B00004CEA55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F7B43314CA1AF5004CEA55 /* SystemConfiguration.framework */; };
 		44FE6F14146C241300FA13F9 /* ImplementationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44C546EA146C191F00D3860A /* ImplementationTemplate.txt */; };
 		44FE6F77146C8D5600FA13F9 /* JavaTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44FE6F76146C8D5600FA13F9 /* JavaTemplate.txt */; };
-		7D00408714A24F1700235189 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D00408614A24F1700235189 /* AddressBook.framework */; };
 		7D00408814A24F1C00235189 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D00408614A24F1700235189 /* AddressBook.framework */; };
 		7D00F426149FF30C00235189 /* JSONTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D00F425149FF30C00235189 /* JSONTextView.m */; };
-		7D00F427149FF99600235189 /* JSONTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D00F425149FF30C00235189 /* JSONTextView.m */; };
 		7D2AD95614D087A90035A4FE /* CoreDataInterfaceTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AD95514D087A90035A4FE /* CoreDataInterfaceTemplate.txt */; };
-		7D2AD95714D087A90035A4FE /* CoreDataInterfaceTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AD95514D087A90035A4FE /* CoreDataInterfaceTemplate.txt */; };
 		7D2AD95914D089440035A4FE /* CoreDataImplementationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AD95814D089440035A4FE /* CoreDataImplementationTemplate.txt */; };
-		7D2AD95A14D089440035A4FE /* CoreDataImplementationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AD95814D089440035A4FE /* CoreDataImplementationTemplate.txt */; };
 		7D2AD96514D099480035A4FE /* CoreDataAccessorsTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AD96414D099480035A4FE /* CoreDataAccessorsTemplate.txt */; };
-		7D2AD96614D099480035A4FE /* CoreDataAccessorsTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AD96414D099480035A4FE /* CoreDataAccessorsTemplate.txt */; };
 		7D384DBD14ACF8AC0073EA2C /* SavePanelLanguageChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D384DBB14ACF8AC0073EA2C /* SavePanelLanguageChooserViewController.m */; };
-		7D384DBF14ACFB210073EA2C /* SavePanelLanguageChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D384DBB14ACF8AC0073EA2C /* SavePanelLanguageChooserViewController.m */; };
 		7D5FE4D114AD11F900330C2F /* HTTPOptionsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FE4D014AD11F900330C2F /* HTTPOptionsWindowController.m */; };
-		7D5FE4D214AD11F900330C2F /* HTTPOptionsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FE4D014AD11F900330C2F /* HTTPOptionsWindowController.m */; };
 		7D5FE4D414AD128800330C2F /* HTTPOptionsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FE4D314AD128800330C2F /* HTTPOptionsWindowController.xib */; };
-		7D5FE4D514AD128800330C2F /* HTTPOptionsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FE4D314AD128800330C2F /* HTTPOptionsWindowController.xib */; };
 		7D78647D14CF1FBB00A0B173 /* CoreDataModelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78647C14CF1FBB00A0B173 /* CoreDataModelGenerator.m */; };
-		7D78647E14CF1FBB00A0B173 /* CoreDataModelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D78647C14CF1FBB00A0B173 /* CoreDataModelGenerator.m */; };
 		7D9FDFDC14D1E5CF00F135CC /* OutputLanguageWriterDjango.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FDFDB14D1E5CF00F135CC /* OutputLanguageWriterDjango.m */; };
-		7D9FDFDD14D1E5CF00F135CC /* OutputLanguageWriterDjango.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FDFDB14D1E5CF00F135CC /* OutputLanguageWriterDjango.m */; };
 		7D9FE00A14D32CD800F135CC /* JavaArrayTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D9FE00914D32CD800F135CC /* JavaArrayTemplate.txt */; };
-		7D9FE00B14D32CD800F135CC /* JavaArrayTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D9FE00914D32CD800F135CC /* JavaArrayTemplate.txt */; };
 		7D9FE01114D3369B00F135CC /* JavaPrimitiveArrayTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D9FE01014D3369B00F135CC /* JavaPrimitiveArrayTemplate.txt */; };
-		7D9FE01214D3369B00F135CC /* JavaPrimitiveArrayTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D9FE01014D3369B00F135CC /* JavaPrimitiveArrayTemplate.txt */; };
 		7DBDAE5D14CF7C1B00D7349E /* OutputLanguageWriterCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDAE5C14CF7C1B00D7349E /* OutputLanguageWriterCoreData.m */; };
-		7DBDAE5E14CF7C1B00D7349E /* OutputLanguageWriterCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDAE5C14CF7C1B00D7349E /* OutputLanguageWriterCoreData.m */; };
 		7DC99D2014A26D8900314AA5 /* ModelerDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC99D1E14A26D8900314AA5 /* ModelerDocument.m */; };
-		7DC99D2114A26D8900314AA5 /* ModelerDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC99D1E14A26D8900314AA5 /* ModelerDocument.m */; };
-		B718D47E5BA44AB99E0C2678 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6FAA4DD08944659C3B3970 /* libPods.a */; };
+		D83F6F518839B833C20547F4 /* Pods_JSON_Accelerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C39F9C9999F02B964FC9625 /* Pods_JSON_Accelerator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -219,16 +135,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		44233149149BA92A0071978D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4423314A149BA95B0071978D /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +212,7 @@
 		21A81BBE17947918006ABF6B /* DFLinkLabelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLinkLabelDelegate.h; sourceTree = "<group>"; };
 		21A81BBF17947918006ABF6B /* DFPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlaceholderTextView.h; sourceTree = "<group>"; };
 		21A81BC017947918006ABF6B /* DFPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlaceholderTextView.m; sourceTree = "<group>"; };
-		428CD348485308C3E55F263E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2C39F9C9999F02B964FC9625 /* Pods_JSON_Accelerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON_Accelerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4414992314642ABC002B6969 /* ClassBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassBaseObject.h; path = Models/ClassBaseObject.h; sourceTree = "<group>"; };
 		4414992414642ABC002B6969 /* ClassBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassBaseObject.m; path = Models/ClassBaseObject.m; sourceTree = "<group>"; };
 		4414992714642AF4002B6969 /* ClassPropertiesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassPropertiesObject.h; path = Models/ClassPropertiesObject.h; sourceTree = "<group>"; };
@@ -336,11 +242,8 @@
 		441FC5101462D8E1007BF9DC /* JSONModelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONModelerTests.m; sourceTree = "<group>"; };
 		441FC5241462DBF6007BF9DC /* JSONFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONFetcher.h; path = ModelController/JSONFetcher.h; sourceTree = "<group>"; };
 		441FC5251462DBF6007BF9DC /* JSONFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONFetcher.m; path = ModelController/JSONFetcher.m; sourceTree = "<group>"; };
-		4423313D149B9E290071978D /* JSON Accelerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Accelerator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44233140149B9F380071978D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = JSONModeler/Vendor/Sparkle/Sparkle.framework; sourceTree = "<group>"; };
 		44233143149BA0760071978D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/MainMenu-Internal.xib"; sourceTree = "<group>"; };
-		4426908A14DA050900C16CBD /* NPReceiptVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPReceiptVerification.h; path = Vendor/Receipt/NPReceiptVerification.h; sourceTree = "<group>"; };
-		4426908B14DA050900C16CBD /* NPReceiptVerification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPReceiptVerification.m; path = Vendor/Receipt/NPReceiptVerification.m; sourceTree = "<group>"; };
 		4426908D14DA052900C16CBD /* IOKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		4426908F14DA053C00C16CBD /* Security.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4426909114DA056100C16CBD /* libcrypto.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
@@ -459,6 +362,7 @@
 		44F7B43314CA1AF5004CEA55 /* SystemConfiguration.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		44FE6F65146C736900FA13F9 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = ViewControllers/MainWindowController.h; sourceTree = "<group>"; };
 		44FE6F76146C8D5600FA13F9 /* JavaTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JavaTemplate.txt; path = Resources/Templates/JavaTemplate.txt; sourceTree = "<group>"; };
+		69D3026BFD0DA0C2574FCD27 /* Pods-JSON Accelerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Accelerator.release.xcconfig"; path = "Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator.release.xcconfig"; sourceTree = "<group>"; };
 		7D00408614A24F1700235189 /* AddressBook.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		7D00F424149FF30C00235189 /* JSONTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONTextView.h; path = Views/JSONTextView.h; sourceTree = "<group>"; };
 		7D00F425149FF30C00235189 /* JSONTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONTextView.m; path = Views/JSONTextView.m; sourceTree = "<group>"; };
@@ -482,8 +386,7 @@
 		7DC99D1D14A26D8900314AA5 /* ModelerDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelerDocument.h; path = Documents/ModelerDocument.h; sourceTree = "<group>"; };
 		7DC99D1E14A26D8900314AA5 /* ModelerDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelerDocument.m; path = Documents/ModelerDocument.m; sourceTree = "<group>"; };
 		8EFE38441C91AB2400AB3F0D /* libssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libssl.tbd; path = usr/lib/libssl.tbd; sourceTree = SDKROOT; };
-		B49923DA662B0A758CAD7EAB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		CC6FAA4DD08944659C3B3970 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6565F9F39CA71F127E1A6C /* Pods-JSON Accelerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Accelerator.debug.xcconfig"; path = "Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,29 +394,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4426909214DA056100C16CBD /* libcrypto.dylib in Frameworks */,
 				4426909014DA053C00C16CBD /* Security.framework in Frameworks */,
 				4426908E14DA052900C16CBD /* IOKit.framework in Frameworks */,
 				44F7B43614CA1B00004CEA55 /* SystemConfiguration.framework in Frameworks */,
 				7D00408814A24F1C00235189 /* AddressBook.framework in Frameworks */,
 				441FC4E71462D8E1007BF9DC /* Cocoa.framework in Frameworks */,
 				4473B40E150FEBFF008401B5 /* QuartzCore.framework in Frameworks */,
-				B718D47E5BA44AB99E0C2678 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		44233127149B9E290071978D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4490E8A91692507E007B4FBC /* Security.framework in Frameworks */,
-				4490E8A816925077007B4FBC /* libcrypto.dylib in Frameworks */,
-				4473B40D150FEBFA008401B5 /* QuartzCore.framework in Frameworks */,
-				44F7B43414CA1AF5004CEA55 /* SystemConfiguration.framework in Frameworks */,
-				7D00408714A24F1700235189 /* AddressBook.framework in Frameworks */,
-				44233128149B9E290071978D /* Cocoa.framework in Frameworks */,
-				44233141149B9F380071978D /* Sparkle.framework in Frameworks */,
-				4490E8A616924FDB007B4FBC /* libPods.a in Frameworks */,
+				D83F6F518839B833C20547F4 /* Pods_JSON_Accelerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +522,7 @@
 				44E17C7216719F1200945E6D /* json-accelerator */,
 				441FC4E51462D8E1007BF9DC /* Frameworks */,
 				441FC4E31462D8E1007BF9DC /* Products */,
-				9402469FB40046D03491C2D3 /* Pods */,
+				6D2E69BC595010D0D1F5EB13 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -643,7 +530,6 @@
 			isa = PBXGroup;
 			children = (
 				441FC4E21462D8E1007BF9DC /* JSON Accelerator.app */,
-				4423313D149B9E290071978D /* JSON Accelerator.app */,
 				44E17C6E16719F1200945E6D /* json-accelerator */,
 			);
 			name = Products;
@@ -664,7 +550,7 @@
 				441FC5041462D8E1007BF9DC /* SenTestingKit.framework */,
 				44E17C7016719F1200945E6D /* Foundation.framework */,
 				441FC4E81462D8E1007BF9DC /* Other Frameworks */,
-				CC6FAA4DD08944659C3B3970 /* libPods.a */,
+				2C39F9C9999F02B964FC9625 /* Pods_JSON_Accelerator.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -795,7 +681,6 @@
 			children = (
 				21A81B7C17947918006ABF6B /* DFeedback */,
 				44AC1687151033E200794AB7 /* MAAttachedWindow */,
-				4426908914DA04F400C16CBD /* Receipt */,
 				44F037E214CA189F00FECF86 /* JRFeedback */,
 				445409F41476E112009B59AE /* Noodle */,
 			);
@@ -854,15 +739,6 @@
 				4415E4501462F39900953014 /* JSONModeler.m */,
 			);
 			name = "Model Controllers";
-			sourceTree = "<group>";
-		};
-		4426908914DA04F400C16CBD /* Receipt */ = {
-			isa = PBXGroup;
-			children = (
-				4426908A14DA050900C16CBD /* NPReceiptVerification.h */,
-				4426908B14DA050900C16CBD /* NPReceiptVerification.m */,
-			);
-			name = Receipt;
 			sourceTree = "<group>";
 		};
 		445409F41476E112009B59AE /* Noodle */ = {
@@ -965,6 +841,15 @@
 			name = JRFeedback;
 			sourceTree = "<group>";
 		};
+		6D2E69BC595010D0D1F5EB13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED6565F9F39CA71F127E1A6C /* Pods-JSON Accelerator.debug.xcconfig */,
+				69D3026BFD0DA0C2574FCD27 /* Pods-JSON Accelerator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D384DB814ACF86E0073EA2C /* Save Panel Accessory View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1002,15 +887,6 @@
 			path = ViewControllers/Preferences;
 			sourceTree = "<group>";
 		};
-		9402469FB40046D03491C2D3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				428CD348485308C3E55F263E /* Pods.debug.xcconfig */,
-				B49923DA662B0A758CAD7EAB /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1018,12 +894,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441FC5141462D8E1007BF9DC /* Build configuration list for PBXNativeTarget "JSON Accelerator" */;
 			buildPhases = (
+				CD9B0993E0278E1793714C41 /* [CP] Check Pods Manifest.lock */,
 				441FC4DE1462D8E1007BF9DC /* Sources */,
 				441FC4DF1462D8E1007BF9DC /* Frameworks */,
 				441FC4E01462D8E1007BF9DC /* Resources */,
 				440A183314D337C000AA1894 /* CopyFiles */,
-				88CE318D583B41F68FB7A1F5 /* Copy Pods Resources */,
-				12C0A5614AC2F44A6FD78EE8 /* Embed Pods Frameworks */,
+				544F76BCEB98E9A491D2CA2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1032,25 +908,6 @@
 			name = "JSON Accelerator";
 			productName = JSONModeler;
 			productReference = 441FC4E21462D8E1007BF9DC /* JSON Accelerator.app */;
-			productType = "com.apple.product-type.application";
-		};
-		4423310A149B9E290071978D /* JSON Accelerator_internal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4423313A149B9E290071978D /* Build configuration list for PBXNativeTarget "JSON Accelerator_internal" */;
-			buildPhases = (
-				4423310B149B9E290071978D /* Sources */,
-				44233127149B9E290071978D /* Frameworks */,
-				44233129149B9E290071978D /* Resources */,
-				44233149149BA92A0071978D /* CopyFiles */,
-				4490E8A716924FE8007B4FBC /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "JSON Accelerator_internal";
-			productName = JSONModeler;
-			productReference = 4423313D149B9E290071978D /* JSON Accelerator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		44E17C6D16719F1200945E6D /* json-accelerator */ = {
@@ -1080,7 +937,7 @@
 				ORGANIZATIONNAME = "Nerdery Interactive Labs";
 				TargetAttributes = {
 					441FC4E11462D8E1007BF9DC = {
-						DevelopmentTeam = 489429A2Y7;
+						DevelopmentTeam = 9PL68U2V83;
 					};
 				};
 			};
@@ -1089,6 +946,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ru,
 				de,
@@ -1104,7 +962,6 @@
 			projectRoot = "";
 			targets = (
 				441FC4E11462D8E1007BF9DC /* JSON Accelerator */,
-				4423310A149B9E290071978D /* JSON Accelerator_internal */,
 				44E17C6D16719F1200945E6D /* json-accelerator */,
 			);
 		};
@@ -1172,100 +1029,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44233129149B9E290071978D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4423312D149B9E290071978D /* InterfaceTemplate.txt in Resources */,
-				4423312E149B9E290071978D /* ImplementationTemplate.txt in Resources */,
-				44233134149B9E290071978D /* JavaTemplate.txt in Resources */,
-				44233135149B9E290071978D /* ArraySetterTemplate.txt in Resources */,
-				44233138149B9E290071978D /* appIcons.icns in Resources */,
-				44233144149BA0760071978D /* MainMenu-Internal.xib in Resources */,
-				446C77C314AAAD8F00FD9A5F /* Localizable.strings in Resources */,
-				446F098D14AABF0400E37C0C /* MainWindowController.xib in Resources */,
-				4430047714AB6F4A00F7C8DE /* InfoPlist.strings in Resources */,
-				443EF41314ABCD21006216BE /* Credits.rtf in Resources */,
-				44703BE614D05DA300994234 /* SavePanelLanguageChooserViewController.xib in Resources */,
-				7D5FE4D514AD128800330C2F /* HTTPOptionsWindowController.xib in Resources */,
-				44731FB614B78C1B009FC27D /* 57-download@2x.png in Resources */,
-				44731FB914B78D41009FC27D /* 19-gear@2x.png in Resources */,
-				44731FBC14B78E91009FC27D /* 117-todo@2x.png in Resources */,
-				44F037F014CA18B800FECF86 /* JRFeedbackProvider.strings in Resources */,
-				444AAC1D14CA260E008FBD6F /* JRFeedbackProviderRevised.xib in Resources */,
-				7D2AD95714D087A90035A4FE /* CoreDataInterfaceTemplate.txt in Resources */,
-				7D2AD95A14D089440035A4FE /* CoreDataImplementationTemplate.txt in Resources */,
-				7D2AD96614D099480035A4FE /* CoreDataAccessorsTemplate.txt in Resources */,
-				7D9FE00B14D32CD800F135CC /* JavaArrayTemplate.txt in Resources */,
-				7D9FE01214D3369B00F135CC /* JavaPrimitiveArrayTemplate.txt in Resources */,
-				448366B4150BEF8900D2F6BF /* validCheck.png in Resources */,
-				448366B6150BEF8900D2F6BF /* validCheck@2x.png in Resources */,
-				448366BB150BF07500D2F6BF /* dataButtonDisabled.png in Resources */,
-				448366BD150BF07500D2F6BF /* dataButtonUp.png in Resources */,
-				448366C1150C411C00D2F6BF /* alert.png in Resources */,
-				448366C3150C411C00D2F6BF /* alert@2x.png in Resources */,
-				446E0787150F9EF90071DB0B /* generateDataBackground.png in Resources */,
-				4473B3FA150FC8F2008401B5 /* generateDataBackgroundDisabled.png in Resources */,
-				4473B3FC150FC8F2008401B5 /* generateDataLeftCap.png in Resources */,
-				4473B3FE150FC8F2008401B5 /* generateDataLeftCapDisabled.png in Resources */,
-				4473B400150FC8F2008401B5 /* generateDataRightCap.png in Resources */,
-				4473B402150FC8F2008401B5 /* generateDataRightCapDisabled.png in Resources */,
-				44AC168415102FCC00794AB7 /* alertBackground.png in Resources */,
-				44AC168515102FCC00794AB7 /* alertLeftCap.png in Resources */,
-				44AC168615102FCC00794AB7 /* alertRightCap.png in Resources */,
-				44AC16A9151043D700794AB7 /* alertCloseButton.png in Resources */,
-				44AC16AB151043D700794AB7 /* alertCloseButton@2x.png in Resources */,
-				4430204C15214CE60008D9A7 /* dataButtonUp@2x.png in Resources */,
-				445F442015328B7C00E501F6 /* DictionaryRepresentationArrayTemplate.txt in Resources */,
-				4490E8A0169241D9007B4FBC /* DataModelsTemplate.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12C0A5614AC2F44A6FD78EE8 /* Embed Pods Frameworks */ = {
+		544F76BCEB98E9A491D2CA2B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4490E8A716924FE8007B4FBC /* Copy Pods Resources */ = {
+		CD9B0993E0278E1793714C41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSON Accelerator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		88CE318D583B41F68FB7A1F5 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1294,7 +1103,6 @@
 				7D78647D14CF1FBB00A0B173 /* CoreDataModelGenerator.m in Sources */,
 				7DBDAE5D14CF7C1B00D7349E /* OutputLanguageWriterCoreData.m in Sources */,
 				7D9FDFDC14D1E5CF00F135CC /* OutputLanguageWriterDjango.m in Sources */,
-				4426908C14DA050900C16CBD /* NPReceiptVerification.m in Sources */,
 				44C0FF7E150AA33A0039A847 /* MarkerLineNumberView.m in Sources */,
 				44C0FF7F150AA33A0039A847 /* NoodleLineNumberMarker.m in Sources */,
 				44C0FF80150AA33A0039A847 /* NoodleLineNumberView.m in Sources */,
@@ -1324,44 +1132,6 @@
 				21A81BD717947918006ABF6B /* DFKeyTabView.m in Sources */,
 				21A81BD817947918006ABF6B /* DFLinkLabel.m in Sources */,
 				21A81BD917947918006ABF6B /* DFPlaceholderTextView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4423310B149B9E290071978D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4423310C149B9E290071978D /* main.m in Sources */,
-				4423310D149B9E290071978D /* AppDelegate.m in Sources */,
-				4423310E149B9E290071978D /* JSONFetcher.m in Sources */,
-				44233116149B9E290071978D /* JSONModeler.m in Sources */,
-				44233117149B9E290071978D /* ClassBaseObject.m in Sources */,
-				44233118149B9E290071978D /* ClassPropertiesObject.m in Sources */,
-				44233119149B9E290071978D /* NSString+Nerdery.m in Sources */,
-				4423311F149B9E290071978D /* BaseView.m in Sources */,
-				7D00F427149FF99600235189 /* JSONTextView.m in Sources */,
-				7DC99D2114A26D8900314AA5 /* ModelerDocument.m in Sources */,
-				4439F07C14AABA9C005AA280 /* MainWindowController.m in Sources */,
-				7D384DBF14ACFB210073EA2C /* SavePanelLanguageChooserViewController.m in Sources */,
-				7D5FE4D214AD11F900330C2F /* HTTPOptionsWindowController.m in Sources */,
-				44F037CF14C8B57700FECF86 /* OutputLanguageWriterObjectiveC.m in Sources */,
-				44F037D414C8C43A00FECF86 /* OutputLanguageWriterJava.m in Sources */,
-				44F037E814CA18AE00FECF86 /* JRFeedbackController.m in Sources */,
-				44F037EA14CA18AE00FECF86 /* NSURLRequest+postForm.m in Sources */,
-				7D78647E14CF1FBB00A0B173 /* CoreDataModelGenerator.m in Sources */,
-				7DBDAE5E14CF7C1B00D7349E /* OutputLanguageWriterCoreData.m in Sources */,
-				7D9FDFDD14D1E5CF00F135CC /* OutputLanguageWriterDjango.m in Sources */,
-				44C0FF86150AA3B30039A847 /* MarkerLineNumberView.m in Sources */,
-				44C0FF88150AA3BA0039A847 /* NoodleLineNumberMarker.m in Sources */,
-				44C0FF89150AA3C00039A847 /* NoodleLineNumberView.m in Sources */,
-				44519A2B150E67A1003A5CE0 /* GradientView.m in Sources */,
-				446E0769150EA6290071DB0B /* InvalidDataButton.m in Sources */,
-				446E0784150F980A0071DB0B /* ClickView.m in Sources */,
-				4473B406150FCE1C008401B5 /* GenerateFilesButton.m in Sources */,
-				44AC168B151033E200794AB7 /* MAAttachedWindow.m in Sources */,
-				442E38F015895900003CE8F6 /* OutputLanguageWriterPython.m in Sources */,
-				44DF663E158A3FDF00B8E4E6 /* ArrowView.m in Sources */,
-				4490E8A516924DF9007B4FBC /* PanelCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1592,12 +1362,13 @@
 		};
 		441FC5151462D8E1007BF9DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 428CD348485308C3E55F263E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = ED6565F9F39CA71F127E1A6C /* Pods-JSON Accelerator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = JSONModeler.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9PL68U2V83;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1616,12 +1387,13 @@
 		};
 		441FC5161462D8E1007BF9DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49923DA662B0A758CAD7EAB /* Pods.release.xcconfig */;
+			baseConfigurationReference = 69D3026BFD0DA0C2574FCD27 /* Pods-JSON Accelerator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = JSONModeler.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9PL68U2V83;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1633,72 +1405,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdery.JSON-Accelerator";
 				PRODUCT_NAME = "JSON Accelerator";
 				PROVISIONING_PROFILE = "";
-				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		4423313B149B9E290071978D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/JSONModeler/Vendor/Sparkle\"",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSONModeler/JSONAccelerator-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-					"NORATE=1",
-				);
-				HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
-				INFOPLIST_FILE = "JSONAccelerator-Internal-Info.plist";
-				INFOPLIST_PREPROCESS = NO;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PODS_BUILD_HEADERS_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\" \"${PODS_ROOT}/BuildHeaders/AFNetworking\" \"${PODS_ROOT}/BuildHeaders/MASPreferences\" \"${PODS_ROOT}/BuildHeaders/iRate\"";
-				PODS_HEADERS_SEARCH_PATHS = "${PODS_PUBLIC_HEADERS_SEARCH_PATHS}";
-				PODS_PUBLIC_HEADERS_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/AFNetworking\" \"${PODS_ROOT}/Headers/MASPreferences\" \"${PODS_ROOT}/Headers/iRate\"";
-				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdery.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "JSON Accelerator";
-				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		4423313C149B9E290071978D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/JSONModeler/Vendor/Sparkle\"",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSONModeler/JSONAccelerator-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "NORATE=1";
-				HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
-				INFOPLIST_FILE = "JSONAccelerator-Internal-Info.plist";
-				INFOPLIST_PREPROCESS = NO;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PODS_BUILD_HEADERS_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\" \"${PODS_ROOT}/BuildHeaders/AFNetworking\" \"${PODS_ROOT}/BuildHeaders/MASPreferences\" \"${PODS_ROOT}/BuildHeaders/iRate\"";
-				PODS_HEADERS_SEARCH_PATHS = "${PODS_PUBLIC_HEADERS_SEARCH_PATHS}";
-				PODS_PUBLIC_HEADERS_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/AFNetworking\" \"${PODS_ROOT}/Headers/MASPreferences\" \"${PODS_ROOT}/Headers/iRate\"";
-				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdery.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "JSON Accelerator";
 				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1757,15 +1463,6 @@
 			buildConfigurations = (
 				441FC5151462D8E1007BF9DC /* Debug */,
 				441FC5161462D8E1007BF9DC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4423313A149B9E290071978D /* Build configuration list for PBXNativeTarget "JSON Accelerator_internal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4423313B149B9E290071978D /* Debug */,
-				4423313C149B9E290071978D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
