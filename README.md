@@ -4,7 +4,8 @@ JSON Accelerator helps developers from all programming language persuasions get 
 
 ## New features
 
-添加生成 Swfit 模型功能
+添加生成 Swfit 模型功能。<br/>
+Add feature of writes Swift models.
 
 ## What does it do?
 
