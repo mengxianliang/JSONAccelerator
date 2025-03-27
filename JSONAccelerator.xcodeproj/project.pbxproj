@@ -974,7 +974,7 @@
 				ORGANIZATIONNAME = "Nerdery Interactive Labs";
 				TargetAttributes = {
 					441FC4E11462D8E1007BF9DC = {
-						DevelopmentTeam = 9PL68U2V83;
+						DevelopmentTeam = X496RVQDTB;
 					};
 				};
 			};
@@ -1442,7 +1442,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9PL68U2V83;
+				DEVELOPMENT_TEAM = X496RVQDTB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1467,7 +1467,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9PL68U2V83;
+				DEVELOPMENT_TEAM = X496RVQDTB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",

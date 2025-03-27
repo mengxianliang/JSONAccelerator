@@ -87,7 +87,7 @@
         /* Write the h file to disk */
         NSError *hFileError;
         NSString *outputHFile = [self ObjC_HeaderFileForClassObject:base];
-        NSString *hFilename = [NSString stringWithFormat:@"%@Model.swift", base.className];
+        NSString *hFilename = [NSString stringWithFormat:@"%@.swift", base.className];
         
 #ifndef COMMAND_LINE
         [outputHFile writeToURL:[url URLByAppendingPathComponent:hFilename]
